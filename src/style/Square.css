@@ -1,0 +1,28 @@
+.game {
+    display: flex;
+    flex-direction: row;
+}
+.square {
+    background: #fff;
+    border: 1px solid #999;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 34px;
+    width: 34px;
+    margin-right: -1;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+}
+.square:focus {
+    outline: none;
+}
+.square:hover {
+    background: #eee;
+    cursor: pointer;
+}
+.status {
+    margin-bottom: 10px;
+}

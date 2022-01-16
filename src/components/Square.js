@@ -1,3 +1,5 @@
+import styles from "../style/Square.css";
+
 const Square = (props) => {
     return (
         <button className="square" onClick={props.onClick}>
