@@ -1,1 +1,0 @@
-# react-functional_TicTacToe
